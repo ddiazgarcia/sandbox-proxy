@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import fr.intact.sandboxproxy.model.Site;
 
-public interface SiteRepository extends CrudRepository<Site, Integer> {
+public interface SiteRepository extends CrudRepository<Site, Long> {
 
 }
