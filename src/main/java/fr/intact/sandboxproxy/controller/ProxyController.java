@@ -46,7 +46,7 @@ public class ProxyController {
 		return jSoupResponseToSpringResponseEntity(response, siteUrl);
 	}
 	
-	@GetMapping("/**")
+	// @GetMapping("/**")
 	public ResponseEntity<byte[]> proxy(HttpServletRequest request) throws IOException {
 		
 		Long siteId = Arrays.stream(request.getCookies())
